@@ -1,0 +1,11 @@
+.btn-booking {
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-indent: -9999em;
+  vertical-align: middle;
+  border: 0 none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
