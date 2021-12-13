@@ -21,3 +21,15 @@
 .clearfix:after {
   clear: both;
 }
+/* .button:focus {
+  color: #000;
+  outline: 0;
+} */
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
