@@ -126,34 +126,4 @@ $(function () {
     $(".hoverMenu").css("display", "none");
     $(".five").css("display", "none");
   });
-  // $(".theater").hover(
-  //   function () {
-  //     $(".hoverWrap").css("display", "block");
-  //     $(".three").css("display", "inline-block");
-  //   },
-  //   function () {
-  //     $(".hoverMenu").css("display", "none");
-  //     $(".three").css("display", "none");
-  //   }
-  // );
-  // $(".eventM").hover(
-  //   function () {
-  //     $(".hoverWrap").css("display", "block");
-  //     $(".four").css("display", "inline-block");
-  //   },
-  //   function () {
-  //     $(".hoverMenu").css("display", "none");
-  //     $(".four").css("display", "none");
-  //   }
-  // );
-  // $(".store").hover(
-  //   function () {
-  //     $(".hoverWrap").css("display", "block");
-  //     $(".five").css("display", "inline-block");
-  //   },
-  //   function () {
-  //     $(".hoverMenu").css("display", "none");
-  //     $(".five").css("display", "none");
-  //   }
-  // );
 });
