@@ -24,14 +24,25 @@ $(document).ready(function () {
     // navRewind:
   });
 
+  // $(play).on("click", function () {
+  //   $(pause).removeClass("selected");
+  //   $(this).addClass("selected").css("opacity", "1");
+  //   owl.trigger("play.owl.autoplay", [3000]);
+  // });
+  // $(pause).on("click", function () {
+  //   $(play).removeClass("selected").css("opacity", "0.2");
+  //   $(this).addClass("selected");
+  //   owl.trigger("stop.owl.autoplay");
+  // });
+
   $(play).on("click", function () {
-    $(pause).removeClass("selected");
-    $(this).addClass("selected").css("opacity", "1");
+    $(pause).css("opacity", "0.2");
+    $(this).css("opacity", "1");
     owl.trigger("play.owl.autoplay", [3000]);
   });
   $(pause).on("click", function () {
-    $(play).removeClass("selected").css("opacity", "0.2");
-    $(this).addClass("selected");
+    $(play).css("opacity", "0.2");
+    $(this).css("opacity", "1");
     owl.trigger("stop.owl.autoplay");
   });
 
@@ -58,18 +69,12 @@ $(".owl-dot").click(function () {
 
 var rollUl = $("#upward").find("ul");
 var li = $("#upward").find("li");
-var liLeng = li.length;
 var liHeight = li.outerHeight();
 var _index = 0;
 var i = 1;
 
 setInterval(function () {
-  // TweenMax.to("rollUl", 1.5, {
-  //   top: -(liHeight),
-  //   ease: Expo.easeInOut,
-  //   onComplete: topReturn
-  // });
-  TweenMax.to("rollUl", 1.5, {
+  TweenMax.to("rollUl", 3, {
     top: -liHeight,
     ease: Expo.easeInOut,
     onComplete: topReturn,

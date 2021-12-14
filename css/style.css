@@ -239,6 +239,7 @@ body {
 /* --------main---------- */
 .main {
   background-color: #000;
+  min-width: 980px;
 }
 /* oustsidetool */
 .main .gradient {
@@ -284,7 +285,15 @@ body {
   top: 350px;
   z-index: 2;
 }
-
+/* .main .owl-nav {
+  min-width: var(--min-width);
+  max-width: 1920px;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 350px;
+  z-index: 2;
+} */
 .main .-box_nav {
   min-width: var(--min-width);
   max-width: 1116px;
@@ -415,10 +424,10 @@ body {
   background-color: white;
   opacity: 0.2;
 }
-.main .carouselWrap #playPause .play.selected,
+/* .main .carouselWrap #playPause .play.selected,
 .main .carouselWrap #playPause .pause.selected {
   opacity: 1;
-}
+} */
 .main .carouselWrap .owl-dots .owl-dot.active,
 .main .carouselWrap .owl-dots .owl-dot:hover,
 .main .carouselWrap .owl-dots .owl-dot:focus {
@@ -866,7 +875,7 @@ body {
 }
 
 .end-award {
-  min-width: 980px;
+  min-width: var(--min-width);
   margin: 51px auto 0;
   padding: 15px 0;
   background: #f5f5f5;
