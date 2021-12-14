@@ -120,14 +120,22 @@ body {
   background: url(/img/gnb_follow_wht.png) no-repeat 0 center;
   padding-left: 18px;
 }
-/* -----------logo-------------- */
 .header .menuWrap .topmenu .logo {
   display: inline-block;
   text-align: center;
-  padding-top: 18px;
-  padding-right: 57px;
-}
+  line-height: 47px;
+  margin-top: 18px;
+  background: url(/img/logo_wht.png) no-repeat;
 
+  width: 219px;
+  height: 37px;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.header .menuWrap .topmenu .logo a {
+  display: block;
+}
 /* -----rightmenu------------ */
 
 .header .menuWrap .topmenu .rightmenu {
@@ -494,11 +502,19 @@ body {
   bottom: -4px;
 }
 #owl2 .owl-item .info {
+  /* color: #fff;
+  font-size: var(--text-double-medium);
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 15px; */
+}
+#owl2 .owl-item .info h3 {
   color: #fff;
   font-size: var(--text-double-medium);
   text-align: center;
   margin-right: 10px;
   padding-top: 15px;
+  font-weight: lighter;
 }
 #owl2 .owl-item .subinfo {
   color: #fff;

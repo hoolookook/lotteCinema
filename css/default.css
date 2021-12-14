@@ -9,6 +9,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/* h1, */
+h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+strong {
+  font-weight: lighter;
+}
 .clearfix {
   *zoom: 1;
 }
