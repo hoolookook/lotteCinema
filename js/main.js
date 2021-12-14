@@ -8,7 +8,7 @@ $(document).ready(function () {
     items: 1, // 한번에 보여줄 아이템 수
     loop: true, // 반복여부
     margin: 0, // 오른쪽 간격
-    autoplay: true, // 자동재생 여부
+    autoplay: false, // 자동재생 여부
     autoplayTimeout: 3000, // 재생간격
     autoplayHoverPause: true, //마우스오버시 멈출지 여부
     dotsContainer: "#carousel-custom-dots",
@@ -91,7 +91,7 @@ $(function () {
     $(".one").css("display", "inline-block");
   });
   $(".hoverWrap").mouseleave(function () {
-    $(".hoverMenu").css("display", "none");
+    $(".hoverMenu , .hoverWrap").css("display", "none");
     $(".one").css("display", "none");
   });
   $(".movie").mouseenter(function () {
@@ -99,7 +99,7 @@ $(function () {
     $(".two").css("display", "inline-block");
   });
   $(".hoverWrap").mouseleave(function () {
-    $(".hoverMenu").css("display", "none");
+    $(".hoverMenu , .hoverWrap").css("display", "none");
     $(".two").css("display", "none");
   });
   $(".theater").mouseenter(function () {
@@ -107,7 +107,7 @@ $(function () {
     $(".three").css("display", "inline-block");
   });
   $(".hoverWrap").mouseleave(function () {
-    $(".hoverMenu").css("display", "none");
+    $(".hoverMenu , .hoverWrap").css("display", "none");
     $(".three").css("display", "none");
   });
   $(".eventM").mouseenter(function () {
@@ -115,7 +115,7 @@ $(function () {
     $(".four").css("display", "inline-block");
   });
   $(".hoverWrap").mouseleave(function () {
-    $(".hoverMenu").css("display", "none");
+    $(".hoverMenu , .hoverWrap").css("display", "none");
     $(".four").css("display", "none");
   });
   $(".store").mouseenter(function () {
@@ -123,7 +123,7 @@ $(function () {
     $(".five").css("display", "inline-block");
   });
   $(".hoverWrap").mouseleave(function () {
-    $(".hoverMenu").css("display", "none");
+    $(".hoverMenu , .hoverWrap").css("display", "none");
     $(".five").css("display", "none");
   });
 });
