@@ -8,7 +8,7 @@ $(document).ready(function () {
     items: 1, // 한번에 보여줄 아이템 수
     loop: true, // 반복여부
     margin: 0, // 오른쪽 간격
-    autoplay: false, // 자동재생 여부
+    autoplay: true, // 자동재생 여부
     autoplayTimeout: 3000, // 재생간격
     autoplayHoverPause: true, //마우스오버시 멈출지 여부
     dotsContainer: "#carousel-custom-dots",
@@ -16,12 +16,12 @@ $(document).ready(function () {
 
   two.owlCarousel({
     items: 5, // 한번에 보여줄 아이템 수
-    loop: false, // 반복여부
-    margin: 0, // 오른쪽 간격
-    autoplay: false, // 자동재생 여부
-    autoplayTimeout: 0, // 재생간격
+    loop: true, // 반복여부
+    margin: 1, // 오른쪽 간격
+    autoplay: true, // 자동재생 여부
+    autoplayTimeout: 4000, // 재생간격
     autoplayHoverPause: true, //마우스오버시 멈출지 여부
-    navRewind: false,
+    // navRewind:
   });
 
   $(play).on("click", function () {
