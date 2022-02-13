@@ -1,2 +1,3 @@
-LotteCinema clone
-pdf --->http://hoolookook.dothome.co.kr/resources/images/screenShot/pdf_SC/lotteCinema.pdf
+<h2>LotteCinema clone</h2><br><br>
+pdf ---> http://hoolookook.dothome.co.kr/resources/images/screenShot/pdf_SC/lotteCinema.pdf<br>
+web ---> http://hoolookook.dothome.co.kr/resources/lotteCinema/index.html
